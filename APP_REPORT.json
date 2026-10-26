@@ -1,0 +1,65 @@
+{
+  "ideaId": "W024",
+  "slug": "timesheet-studio",
+  "title": "업무시간 정산기",
+  "ready": true,
+  "summary": "익일 퇴근을 명시하는 로컬 근무시간 계산·일별/월요일 주별 합계·CSV 정산표",
+  "features": [
+    "출퇴근·정수 휴게 입력 및 행 추가/삭제",
+    "익일·최대 24시간 검증",
+    "잘못된 날짜/시각·휴게·중복/교차일 겹침 차단",
+    "정수 분·소수 시간·일별/월요일 주별 합계",
+    "UTF-8 기록/합계 CSV·합계 복사",
+    "6국어 수동 언어 메뉴"
+  ],
+  "tests": [
+    {
+      "name": "node --check dist/core.js, dist/app.js",
+      "pass": true
+    },
+    {
+      "name": "Node normal/overnight/24h/invalid date-time-break fixtures",
+      "pass": true
+    },
+    {
+      "name": "Node duplicate/cross-day overlap and adjacency fixtures",
+      "pass": true
+    },
+    {
+      "name": "Node daily/Monday-week attribution, decimal CSV and six locale routes",
+      "pass": true
+    },
+    {
+      "name": "All six static localized HTML titles, correct html lang and exactly one ko/en/es/zh/ja/de menu identity",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "브라우저 시각 QA 미실시",
+    "동일 현지 벽시계 기준; 시간대/DST 변화 미반영",
+    "익일 근무도 출근 날짜에 전부 귀속",
+    "휴게 시점 미입력으로 겹침 구간은 항상 차단",
+    "최대 200건·1900–2100년",
+    "법정 수당/초과근로 판정 없음"
+  ],
+  "sources": [
+    "https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#dates"
+  ],
+  "entry": "dist/index.html",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "languageRoutes": {
+    "ko": "/",
+    "en": "/en/",
+    "es": "/es/",
+    "zh": "/zh/",
+    "ja": "/ja/",
+    "de": "/de/"
+  }
+}

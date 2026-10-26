@@ -1,0 +1,59 @@
+{
+  "slug": "timesheet-studio",
+  "url": "https://nanalab.kr/timesheet-studio/",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "locales": {
+    "ko": {
+      "name": "업무시간 정산기",
+      "description": "출퇴근·휴게·익일 근무를 입력해 일별·주별 근무시간을 합산하고 CSV로 저장하세요.",
+      "image_alt": "업무시간 정산기"
+    },
+    "en": {
+      "name": "Timesheet Studio",
+      "description": "Enter clock-in, clock-out, breaks and overnight shifts to total daily and weekly work hours and export CSV.",
+      "image_alt": "Timesheet Studio"
+    },
+    "es": {
+      "name": "Estudio de horas de trabajo",
+      "description": "Introduce entradas, salidas, descansos y turnos nocturnos para sumar horas diarias y semanales y exportarlas a CSV.",
+      "image_alt": "Estudio de horas de trabajo"
+    },
+    "zh": {
+      "name": "工作时间核算",
+      "description": "输入上下班、休息与跨夜工作记录，汇总每日和每周工时并导出 CSV。",
+      "image_alt": "工作时间核算"
+    },
+    "ja": {
+      "name": "業務時間精算ツール",
+      "description": "出退勤・休憩・翌日までの勤務を入力し、日別・週別の勤務時間を集計してCSVに保存できます。",
+      "image_alt": "業務時間精算ツール"
+    },
+    "de": {
+      "name": "Arbeitszeitstudio",
+      "description": "Erfassen Sie Arbeitsbeginn, Arbeitsende, Pausen und Nachtschichten, summieren Sie Tages- und Wochenstunden und exportieren Sie CSV.",
+      "image_alt": "Arbeitszeitstudio"
+    },
+    "fr": {
+      "name": "Calcul des heures de travail",
+      "description": "Saisissez les heures d'arrivée, de départ, les pauses et les services de nuit pour totaliser les heures par jour et par semaine et exporter en CSV.",
+      "image_alt": "Calcul des heures de travail"
+    },
+    "pt": {
+      "name": "Apuração de horas de trabalho",
+      "description": "Informe entradas, saídas, pausas e turnos que passam da meia-noite para somar horas diárias e semanais e exportar em CSV.",
+      "image_alt": "Apuração de horas de trabalho"
+    },
+    "ru": {
+      "name": "Учёт рабочего времени",
+      "description": "Вводите начало и конец смены, перерывы и ночные смены, подсчитывайте часы по дням и неделям и сохраняйте CSV.",
+      "image_alt": "Учёт рабочего времени"
+    }
+  }
+}
